@@ -5,3 +5,10 @@ version = 3
 [[package]]
 name = "rust_course_hw01_bin"
 version = "0.1.0"
+dependencies = [
+ "rust_course_hw01_lib",
+]
+
+[[package]]
+name = "rust_course_hw01_lib"
+version = "0.1.0"
